@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.codepoem",
+    "module": "v-kotlin-ext",
+    "version": "1.0.0-LOCAL",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "3s4fk7gg5zbppndjihdy3ra7wu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "v-kotlin-ext-1.0.0-LOCAL.jar",
+          "url": "v-kotlin-ext-1.0.0-LOCAL.jar",
+          "size": 1379,
+          "sha512": "02947243dc332a9ea2d7dc803c5f58ec1460dfbef0842820880e539dc66d62d7634d839a6e47cbb02d40bccb4fa93c19beb15ad838f053f8a88b53c1a5ccbc47",
+          "sha256": "394ac85936146e63fb73fbdfd74cfcfe76ef3d6166c31a5f2a3916e0b2d251f1",
+          "sha1": "dcaffd792f7c4d711241b8dc6c4742287c3595fb",
+          "md5": "8b20956685b02f5e35f4dc56ac46fcc2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "v-kotlin-ext-1.0.0-LOCAL.jar",
+          "url": "v-kotlin-ext-1.0.0-LOCAL.jar",
+          "size": 1379,
+          "sha512": "02947243dc332a9ea2d7dc803c5f58ec1460dfbef0842820880e539dc66d62d7634d839a6e47cbb02d40bccb4fa93c19beb15ad838f053f8a88b53c1a5ccbc47",
+          "sha256": "394ac85936146e63fb73fbdfd74cfcfe76ef3d6166c31a5f2a3916e0b2d251f1",
+          "sha1": "dcaffd792f7c4d711241b8dc6c4742287c3595fb",
+          "md5": "8b20956685b02f5e35f4dc56ac46fcc2"
+        }
+      ]
+    }
+  ]
+}
