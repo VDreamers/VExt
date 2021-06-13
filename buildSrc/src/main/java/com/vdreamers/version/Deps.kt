@@ -73,6 +73,15 @@ enum class Deps {
     }
 
     object VDreamers {
+        private const val V_ANDROID_EXT= "1.0.1"
+        private const val V_KOTLIN_EXT = "1.0.1"
 
+        fun vAndroidExt(version: String = V_ANDROID_EXT): String {
+            return "io.github.codepoem:v-android-ext:$version"
+        }
+
+        fun vKotlinExt(version: String = V_KOTLIN_EXT): String {
+            return "io.github.codepoem:v-kotlin-ext:$version"
+        }
     }
 }

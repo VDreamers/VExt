@@ -24,4 +24,4 @@ val javadocJar: TaskProvider<Jar> by tasks.registering(Jar::class) {
     from(dokkaHtml.outputDirectory)
 }
 
-apply(from = "${rootProject.projectDir}/publish.gradle")
+apply(from = "${rootProject.projectDir}/publish.gradle.kts")

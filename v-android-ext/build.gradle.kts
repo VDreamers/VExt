@@ -54,4 +54,4 @@ dependencies {
     androidTestImplementation(Deps.AndroidTest.espressoCore())
 }
 
-apply(from = "${rootProject.projectDir}/publish.gradle")
+apply(from = "${rootProject.projectDir}/publish.gradle.kts")
